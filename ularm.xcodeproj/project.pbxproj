@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA1D53429A1DA1F0028584F /* ularmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D53329A1DA1F0028584F /* ularmApp.swift */; };
+		FDA1D53629A1DA1F0028584F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D53529A1DA1F0028584F /* ContentView.swift */; };
+		FDA1D53829A1DA200028584F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA1D53729A1DA200028584F /* Assets.xcassets */; };
+		FDA1D53B29A1DA200028584F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA1D53A29A1DA200028584F /* Preview Assets.xcassets */; };
+		FDA1D54629A1DA200028584F /* ularmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D54529A1DA200028584F /* ularmTests.swift */; };
+		FDA1D55029A1DA200028584F /* ularmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D54F29A1DA200028584F /* ularmUITests.swift */; };
+		FDA1D55229A1DA200028584F /* ularmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1D55129A1DA200028584F /* ularmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA1D54229A1DA200028584F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA1D52829A1DA1F0028584F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA1D52F29A1DA1F0028584F;
+			remoteInfo = ularm;
+		};
+		FDA1D54C29A1DA200028584F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA1D52829A1DA1F0028584F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA1D52F29A1DA1F0028584F;
+			remoteInfo = ularm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA1D53029A1DA1F0028584F /* ularm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ularm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA1D53329A1DA1F0028584F /* ularmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ularmApp.swift; sourceTree = "<group>"; };
+		FDA1D53529A1DA1F0028584F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDA1D53729A1DA200028584F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA1D53A29A1DA200028584F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDA1D53C29A1DA200028584F /* ularm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ularm.entitlements; sourceTree = "<group>"; };
+		FDA1D54129A1DA200028584F /* ularmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ularmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA1D54529A1DA200028584F /* ularmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ularmTests.swift; sourceTree = "<group>"; };
+		FDA1D54B29A1DA200028584F /* ularmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ularmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA1D54F29A1DA200028584F /* ularmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ularmUITests.swift; sourceTree = "<group>"; };
+		FDA1D55129A1DA200028584F /* ularmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ularmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA1D52D29A1DA1F0028584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1D53E29A1DA200028584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1D54829A1DA200028584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA1D52729A1DA1F0028584F = {
+			isa = PBXGroup;
+			children = (
+				FDA1D53229A1DA1F0028584F /* ularm */,
+				FDA1D54429A1DA200028584F /* ularmTests */,
+				FDA1D54E29A1DA200028584F /* ularmUITests */,
+				FDA1D53129A1DA1F0028584F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA1D53129A1DA1F0028584F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D53029A1DA1F0028584F /* ularm.app */,
+				FDA1D54129A1DA200028584F /* ularmTests.xctest */,
+				FDA1D54B29A1DA200028584F /* ularmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA1D53229A1DA1F0028584F /* ularm */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D53329A1DA1F0028584F /* ularmApp.swift */,
+				FDA1D53529A1DA1F0028584F /* ContentView.swift */,
+				FDA1D53729A1DA200028584F /* Assets.xcassets */,
+				FDA1D53C29A1DA200028584F /* ularm.entitlements */,
+				FDA1D53929A1DA200028584F /* Preview Content */,
+			);
+			path = ularm;
+			sourceTree = "<group>";
+		};
+		FDA1D53929A1DA200028584F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D53A29A1DA200028584F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDA1D54429A1DA200028584F /* ularmTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D54529A1DA200028584F /* ularmTests.swift */,
+			);
+			path = ularmTests;
+			sourceTree = "<group>";
+		};
+		FDA1D54E29A1DA200028584F /* ularmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA1D54F29A1DA200028584F /* ularmUITests.swift */,
+				FDA1D55129A1DA200028584F /* ularmUITestsLaunchTests.swift */,
+			);
+			path = ularmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA1D52F29A1DA1F0028584F /* ularm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA1D55529A1DA200028584F /* Build configuration list for PBXNativeTarget "ularm" */;
+			buildPhases = (
+				FDA1D52C29A1DA1F0028584F /* Sources */,
+				FDA1D52D29A1DA1F0028584F /* Frameworks */,
+				FDA1D52E29A1DA1F0028584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ularm;
+			productName = ularm;
+			productReference = FDA1D53029A1DA1F0028584F /* ularm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA1D54029A1DA200028584F /* ularmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA1D55829A1DA200028584F /* Build configuration list for PBXNativeTarget "ularmTests" */;
+			buildPhases = (
+				FDA1D53D29A1DA200028584F /* Sources */,
+				FDA1D53E29A1DA200028584F /* Frameworks */,
+				FDA1D53F29A1DA200028584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA1D54329A1DA200028584F /* PBXTargetDependency */,
+			);
+			name = ularmTests;
+			productName = ularmTests;
+			productReference = FDA1D54129A1DA200028584F /* ularmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA1D54A29A1DA200028584F /* ularmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA1D55B29A1DA200028584F /* Build configuration list for PBXNativeTarget "ularmUITests" */;
+			buildPhases = (
+				FDA1D54729A1DA200028584F /* Sources */,
+				FDA1D54829A1DA200028584F /* Frameworks */,
+				FDA1D54929A1DA200028584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA1D54D29A1DA200028584F /* PBXTargetDependency */,
+			);
+			name = ularmUITests;
+			productName = ularmUITests;
+			productReference = FDA1D54B29A1DA200028584F /* ularmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA1D52829A1DA1F0028584F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FDA1D52F29A1DA1F0028584F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FDA1D54029A1DA200028584F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FDA1D52F29A1DA1F0028584F;
+					};
+					FDA1D54A29A1DA200028584F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FDA1D52F29A1DA1F0028584F;
+					};
+				};
+			};
+			buildConfigurationList = FDA1D52B29A1DA1F0028584F /* Build configuration list for PBXProject "ularm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA1D52729A1DA1F0028584F;
+			productRefGroup = FDA1D53129A1DA1F0028584F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA1D52F29A1DA1F0028584F /* ularm */,
+				FDA1D54029A1DA200028584F /* ularmTests */,
+				FDA1D54A29A1DA200028584F /* ularmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA1D52E29A1DA1F0028584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA1D53B29A1DA200028584F /* Preview Assets.xcassets in Resources */,
+				FDA1D53829A1DA200028584F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1D53F29A1DA200028584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1D54929A1DA200028584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA1D52C29A1DA1F0028584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA1D53629A1DA1F0028584F /* ContentView.swift in Sources */,
+				FDA1D53429A1DA1F0028584F /* ularmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1D53D29A1DA200028584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA1D54629A1DA200028584F /* ularmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1D54729A1DA200028584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA1D55229A1DA200028584F /* ularmUITestsLaunchTests.swift in Sources */,
+				FDA1D55029A1DA200028584F /* ularmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA1D54329A1DA200028584F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA1D52F29A1DA1F0028584F /* ularm */;
+			targetProxy = FDA1D54229A1DA200028584F /* PBXContainerItemProxy */;
+		};
+		FDA1D54D29A1DA200028584F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA1D52F29A1DA1F0028584F /* ularm */;
+			targetProxy = FDA1D54C29A1DA200028584F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDA1D55329A1DA200028584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA1D55429A1DA200028584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FDA1D55629A1DA200028584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ularm/ularm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ularm/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LQH2FKY6W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umino.ularm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDA1D55729A1DA200028584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ularm/ularm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ularm/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LQH2FKY6W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umino.ularm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FDA1D55929A1DA200028584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LQH2FKY6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umino.ularmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ularm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ularm";
+			};
+			name = Debug;
+		};
+		FDA1D55A29A1DA200028584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LQH2FKY6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umino.ularmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ularm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ularm";
+			};
+			name = Release;
+		};
+		FDA1D55C29A1DA200028584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LQH2FKY6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umino.ularmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ularm;
+			};
+			name = Debug;
+		};
+		FDA1D55D29A1DA200028584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LQH2FKY6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umino.ularmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ularm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA1D52B29A1DA1F0028584F /* Build configuration list for PBXProject "ularm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA1D55329A1DA200028584F /* Debug */,
+				FDA1D55429A1DA200028584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA1D55529A1DA200028584F /* Build configuration list for PBXNativeTarget "ularm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA1D55629A1DA200028584F /* Debug */,
+				FDA1D55729A1DA200028584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA1D55829A1DA200028584F /* Build configuration list for PBXNativeTarget "ularmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA1D55929A1DA200028584F /* Debug */,
+				FDA1D55A29A1DA200028584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA1D55B29A1DA200028584F /* Build configuration list for PBXNativeTarget "ularmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA1D55C29A1DA200028584F /* Debug */,
+				FDA1D55D29A1DA200028584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA1D52829A1DA1F0028584F /* Project object */;
+}
